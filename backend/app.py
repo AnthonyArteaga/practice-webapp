@@ -12,7 +12,7 @@ CORS(app)
 socketio = SocketIO(app, cors_allowed_origins="*")
 
 #for mongoDB connection
-client = MongoClient("mongodb+srv://arteaga215:admin@first-cluster.mu9ti.mongodb.net/")  #replace with MongoDB URI
+client = MongoClient("")  #replace with MongoDB URI
 db = client["TextsDB"]
 collection = db["texts"]
 
