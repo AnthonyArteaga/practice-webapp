@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "dev": "concurrently \"cd frontend && npm start\" \".\\practice-venv\\Scripts\\activate && python app.py\""
+    },
+    "dependencies": {
+        "react-router-dom": "^6.28.0"
+    }
+}
