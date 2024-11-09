@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "dev": "concurrently \"cd frontend && npm start\" \".\\practice-venv\\Scripts\\activate && python app.py\""
+        "dev": "concurrently \"cd frontend && npm start\" \".\\practice-venv\\Scripts\\activate && cd backend && python app.py\""
     },
     "dependencies": {
         "react-router-dom": "^6.28.0"
